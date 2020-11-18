@@ -30,7 +30,7 @@ public class FaktoriálisTeszt {
     }
     
     @Test
-    public void faktoriálisTúlNagy() throws FaktoriálisKivétel {
+    public void faktoriálisTúlNagy() throws FaktoriálisKivétel {//Teszt túlnagy szám értékhez
         int be = 13;
         long elvárás = 6227020801L;
         long eredmény = faktoriálisprojekt.FaktoriálisProjekt.faktoriális(be);
