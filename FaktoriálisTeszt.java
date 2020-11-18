@@ -42,6 +42,5 @@ public class FaktoriálisTeszt {
     public void faktoriálisNegatív() throws FaktoriálisKivétel {
         int be = -1;
         long eredmény = faktoriálisprojekt.FaktoriálisProjekt.faktoriális(be);
-        
     }
 }
